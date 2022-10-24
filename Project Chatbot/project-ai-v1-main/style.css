@@ -1,0 +1,92 @@
+.banner {
+  background-image: url(assets/image.jpg);
+  background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: white;
+
+}
+
+
+.chaticon{
+  position: fixed;
+  right: 30px;
+  bottom: 0;
+  font-size: 80px;
+  color: #1F51FF;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.chatbox{
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+  width: 400px;
+  height: 80vh;
+  background: #dedede;
+  z-index: 1000;
+  transition: all 0.3s ease-out;
+  transform: scaleY(0);
+  border-radius: 5%;
+}
+
+.chatbox.active{
+  transform: scaleY(1);
+}
+
+.hidden{
+  display: none !important;
+}
+
+.conv-form-wrapper textarea{
+  height: 30px;
+  overflow: hidden;
+  resize: none;
+}
+
+#messages{
+  padding: 20px;
+}
+
+#Project{
+  margin-top: 10%;
+}
+
+#Anggota{
+  margin-top: 10%;
+}
+
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: white;
+  background-color: red;
+}
+
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+
+.crop-img {
+  object-fit: cover;
+}
+
+.team img{
+    width: 200px;
+    border: 4px solid gray;
+}
+
+
+
+.footer{
+  background-color: #333;
+  height: 80px;
+  color: white;
+  justify-content: center;
+  display: flex;
+}
